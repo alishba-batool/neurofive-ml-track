@@ -129,6 +129,11 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
 ---
+## Model Evaluation and Hyperparameter Tuning
+
+The Logistic Regression model was evaluated using Accuracy, Precision, Recall, and F1-score. Since accuracy alone can be misleading for imbalanced datasets, additional evaluation metrics were used to better understand the model's performance.
+
+Hyperparameter tuning was performed using GridSearchCV by optimizing the `C` and `solver` parameters. The tuned model achieved improved performance compared to the original model, resulting in better overall classification metrics.
 
 ## Conclusion
 
